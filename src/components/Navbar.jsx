@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         <ul className='flex'>
             <li className='invisible md:visible p-4 mt-3 text-2xl text-[#0A66C2]'> <a href="https://www.linkedin.com/in/jesse-emmanuel-450a95194/" target={"_blank"} rel="noreferrer"><BsIcons.BsLinkedin /></a> </li>
-            <li className='invisible md:visible p-4 mt-3 text-2xl text-white'> <a href="https://github.com/JesseEmmanuel" target={"_blank"} rel="noreferrer"><BsIcons.BsBootstrapFill /></a></li>
+            <li className='invisible md:visible p-4 mt-3 text-2xl text-white'> <a href="https://github.com/JesseEmmanuel" target={"_blank"} rel="noreferrer"><BsIcons.BsGithub /></a></li>
             <li>
                 <div className='py-5 px-5'>
                     <button onClick={handleShow} type="button" className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl
