@@ -7,7 +7,7 @@ const CallToAction = () => {
     const handleClose = () => setShow(false)
     const handleShow = () => setShow(true)
   return (
-    <div className='w-full bg-white py-10 px-4'>
+    <div className='w-full bg-white py-10'>
       <div className='max-w-[800px] mt-[-80px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <div className="w-full p-4 text-center">
             <h5 className="mb-2 text-3xl font-bold text-gray-900 dark:text-white">Looking for a developer?</h5>
