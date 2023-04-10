@@ -38,7 +38,7 @@ const PopForm = ({handleClose}) => {
             <ToastContainer position='top-center' hideProgressBar='true'/>
             <div className="relative w-auto my-6 mx-auto max-w-3xl">
             {/*content*/}
-                <div id='formBox' className="border-solid border-[#00df9a] rounded-lg relative flex flex-col w-full bg-white outline-none focus:outline-none shadow dark:bg-gray-700">
+                <div id='formBox' className="border-solid border-[#00df9a] rounded-lg relative flex flex-col w-full transition duration-150 ease-in-out bg-white outline-none focus:outline-none shadow dark:bg-gray-700">
                     {/*header*/}
                     <div className="flex items-center justify-between p-5 rounded-t">
                         <Lottie options={defaultOptions} width={250} />

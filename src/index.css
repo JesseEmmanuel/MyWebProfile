@@ -21,6 +21,10 @@ body{
     max-width: 100%;
     overflow-x: hidden;
   }
+
+  #formbox {
+    
+  }
 }
 /* p{
   font-family: "europa", sans-serif;
