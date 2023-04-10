@@ -15,14 +15,14 @@ const Navbar = () => {
     // }
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
+    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-6 md:mx-auto sm:mx-auto">
         <div>
             <h1 className='flex w-full text-3xl text-white font-bold'>Jesse<p className='text-[#00df9a]'>Dev</p></h1>
             <p className='text-[#00df9a]' >Code.Learn.Grow</p>
         </div>
         <ul className='flex'>
-            <li className='p-4 mt-3 text-2xl text-[#0A66C2]'> <a href="https://www.linkedin.com/in/jesse-emmanuel-450a95194/" target={"_blank"} rel="noreferrer"><BsIcons.BsLinkedin /></a> </li>
-            <li className='p-4 mt-3 text-2xl text-white'> <a href="https://github.com/JesseEmmanuel" target={"_blank"} rel="noreferrer"><BsIcons.BsBootstrapFill /></a></li>
+            <li className='invisible md:visible p-4 mt-3 text-2xl text-[#0A66C2]'> <a href="https://www.linkedin.com/in/jesse-emmanuel-450a95194/" target={"_blank"} rel="noreferrer"><BsIcons.BsLinkedin /></a> </li>
+            <li className='invisible md:visible p-4 mt-3 text-2xl text-white'> <a href="https://github.com/JesseEmmanuel" target={"_blank"} rel="noreferrer"><BsIcons.BsBootstrapFill /></a></li>
             <li>
                 <div className='py-5 px-5'>
                     <button onClick={handleShow} type="button" className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl
@@ -32,7 +32,7 @@ const Navbar = () => {
                 {show ? (<PopForm handleClose={handleClose} />) : null }
             </li>
         </ul>
-        <div id="formModal" tabindex="-1" aria-hidden="true" className="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] md:h-full">
+        {/* <div id="formModal" tabindex="-1" aria-hidden="true" className="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] md:h-full">
             <div className="relative w-full h-full max-w-2xl md:h-auto">
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
                     <div className="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
@@ -58,7 +58,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
         {/* <div onClick={handleNav} className='block md:hidden'>
             {nav === false ? <AiIcons.AiOutlineClose color='white' /> : <AiIcons.AiOutlineMenu size={20} color='white' /> }
 

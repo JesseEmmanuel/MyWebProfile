@@ -32,7 +32,7 @@ const Skills = () => {
         }
     };
   return (
-    <div className='w-full bg-white py-16 px-4'>
+    <div className='w-full bg-white py-16'>
         <div className='mx-auto text-center flex flex-col justify-center'>
             <p className='text-[#00df9a] font-bold p-2'>DEVELOPMENT SKILLS</p>
             <h1 className='md:text-4xl sm:text-3xl text-4xl text-[#1E293B] font-bold my-2'>My Technology Stacks</h1>

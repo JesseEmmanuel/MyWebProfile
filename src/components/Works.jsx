@@ -17,7 +17,7 @@ const Works = () => {
         <div className='-mt-16'>
             <div className="grid grid-cols-1 px-10 sm:grid-cols-1 md:grid-cols-4">
                 {/* <div className="mx-auto grid md:grid-cols-4 grid-cols-1 p-6 max-w-[1240px] rounded-xl shadow-lg items-start py-16 -mt-36"> */}
-                <div className="max-w-sm bg-white border text-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-6">
+                <div className="max-w-sm bg-white border text-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-6 mb-4">
                     <a href="/#">
                         <img className="rounded-t-lg" src={process.env.PUBLIC_URL + "/assets/img/visitiloilo.png"} alt="" />
                     </a>
@@ -33,7 +33,7 @@ const Works = () => {
                         </a>
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border text-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-6">
+                <div className="max-w-sm bg-white border text-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-6 mb-4">
                     <a href="/#">
                         <img className="rounded-t-lg" src={process.env.PUBLIC_URL + "/assets/img/govesmart.png"} alt="" />
                     </a>
@@ -49,7 +49,7 @@ const Works = () => {
                         </a>
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border text-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-6">
+                <div className="max-w-sm bg-white border text-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-6 mb-4">
                     <a href="/#">
                         <img className="rounded-t-lg" src={process.env.PUBLIC_URL + "/assets/img/asianhomes.png"} alt="" />
                     </a>
@@ -65,7 +65,7 @@ const Works = () => {
                         </a>
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border text-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-6">
+                <div className="max-w-sm bg-white border text-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-6 mb-4">
                     <a href="/#">
                         <img className="rounded-t-lg" src={process.env.PUBLIC_URL + "/assets/img/wearestellar.png"} alt="" />
                     </a>

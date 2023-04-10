@@ -15,7 +15,7 @@ const Hero = () => {
                     backSpeed={140} 
                     loop={Infinity} />
                 </p>
-                <h2 className='text-md mt-3 text-white '>
+                <h2 className='text-md mt-3 text-white mx-8'>
                 I am Highly invested in building websites and API-Driven Web Apps with JavaScript and PHP language/frameworks. Willing to learn more Application Development not limited in Web Applications.
                 </h2>
                 {/* <button className='bg-[#00df9a] py-3 px-5 rounded-lg mt-4 text-black text-sm font-bold'>Get Started</button> */}
