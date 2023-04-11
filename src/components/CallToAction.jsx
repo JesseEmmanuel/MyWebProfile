@@ -10,7 +10,7 @@ const CallToAction = () => {
     <div className='w-full bg-white py-10'>
       <div className='max-w-[800px] mt-[-80px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <div className="w-full p-4 text-center">
-            <h5 className="mb-2 text-3xl font-bold text-gray-900 dark:text-white">Looking for a developer?</h5>
+            <h5 className="mb-2 text-3xl font-bold text-gray-900 dark:text-white">Looking for a web developer?</h5>
             <p className="mb-5 text-base text-gray-500 sm:text-lg dark:text-gray-400">I’m always open to discussing project works or partnership opportunities.</p>
             <div className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                 <button onClick={handleShow} type="button" class="text-[#00df9a] hover:text-white border-2 border-[#00df9a] hover:bg-[#00df9a] focus:ring-4 focus:outline-none focus:ring-[#00df9a] 

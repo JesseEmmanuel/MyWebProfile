@@ -3,8 +3,19 @@ import Frontend from '../assets/frontend.json'
 import Backend from '../assets/backend.json'
 import DevTools from '../assets/tools.json'
 import Lottie from 'react-lottie'
+import MyAvatar from '../assets/me.json'
 
 const Skills = () => {
+
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: MyAvatar,
+        renderSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
+
     const frontedLottie = {
         loop: true,
         autoplay: true,
@@ -33,9 +44,16 @@ const Skills = () => {
     };
   return (
     <div className='w-full bg-white py-16'>
-        <div className='mx-auto text-center flex flex-col justify-center'>
+        <div className='max-w-[800px] mx-auto text-center flex flex-col justify-center'>
             <p className='text-[#00df9a] font-bold p-2'>DEVELOPMENT SKILLS</p>
-            <h1 className='md:text-4xl sm:text-3xl text-4xl text-[#1E293B] font-bold my-2'>My Technology Stacks</h1>
+            <Lottie options={defaultOptions} width={300} />
+            <h1 className='md:text-4xl sm:text-3xl text-4xl text-[#1E293B] font-bold my-2'>Me as a Developer</h1>
+            <p className='text-center'>
+                As an aspiring web developer, I am passionate about creating functional, responsive, and visually appealing websites. 
+                I have experience with HTML, CSS, JavaScript, PHP, WordPress,  React, Codeigniter and Laravel. My goal is to create websites with an intuitive user experience that 
+                meets the needs of the end-user. I am committed to staying up-to-date with the latest trends and technologies in the industry and am excited to continue growing my 
+                skills and expertise as a web developer.
+            </p>
         </div>
         <div class="mx-auto grid md:grid-cols-3 grid-cols-1 p-6 max-w-[1240px] bg-white rounded-xl shadow-lg items-start py-16 mt-8">
             <div className='mx-auto text-center flex flex-col justify-center px-6'>

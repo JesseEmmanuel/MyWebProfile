@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from "./components/Intro";
+// import Intro from "./components/Intro";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Hero />
-      <Intro />
+      {/* <Intro /> */}
       <Skills />
       <Works />
       <CallToAction />
