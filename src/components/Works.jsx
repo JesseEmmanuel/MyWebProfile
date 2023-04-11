@@ -75,7 +75,7 @@ const Works = () => {
                         <a href="/#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Stellar MLM Web App</h5>
                         </a>
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">"We Are Stellar" was established as a sister company of "We Provide" to target financially capable market segments.</p>
+                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">My First <strong>React + Laravel</strong> Project: "We Are Stellar" was established as a sister company of "We Provide" to target financially capable market segments.</p>
                         <a href="https://wearestellar.net/" target={"_blank"} rel="noreferrer">
                             <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
                                 Visit Website

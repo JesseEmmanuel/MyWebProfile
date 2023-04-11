@@ -49,7 +49,7 @@ const Skills = () => {
             <Lottie options={defaultOptions} width={300} />
             <h1 className='md:text-4xl sm:text-3xl text-4xl text-[#1E293B] font-bold my-2'>Me as a Developer</h1>
             <p className='text-center'>
-                As an aspiring web developer, I am passionate about creating functional, responsive, and visually appealing websites. 
+                As an aspiring full-stack web developer, I am passionate on creating functional, responsive, and visually appealing websites. 
                 I have experience with HTML, CSS, JavaScript, PHP, WordPress,  React, Codeigniter and Laravel. My goal is to create websites with an intuitive user experience that 
                 meets the needs of the end-user. I am committed to staying up-to-date with the latest trends and technologies in the industry and am excited to continue growing my 
                 skills and expertise as a web developer.
