@@ -12,10 +12,10 @@ const Intro = () => {
         }
     };
   return (
-    <div className='w-full bg-white py-16'>
-        <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+    <div className='w-full bg-white py-10'>
+        <div className='max-w-[1240px] h-screen mx-auto grid md:grid-cols-2'>
             <Lottie options={defaultOptions} width={400} />
-            <div className="flex flex-col mx-8">
+            <div className="flex flex-col mx-8 justify-center">
                 <p className="text-[#00df9a] font-bold text-center md:text-left sm:text-left">INTRODUCTION</p>
                 <h1 className="sm:text-3xl md:text-4xl text-center md:text-left sm:text-left text-2xl text-[#1E293B] font-bold my-4">Who Am I?</h1>
                 <p className='text-center md:text-left sm:text-left'>
