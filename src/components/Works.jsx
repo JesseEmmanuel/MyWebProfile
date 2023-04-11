@@ -15,7 +15,7 @@ const Works = () => {
             </div>
         </div>
         <div className='-mt-16'>
-            <div className="grid grid-cols-1 px-10 sm:grid-cols-1 md:grid-cols-4">
+            <div className="grid grid-cols-1 gap-2 px-10 sm:grid-cols-1 md:grid-cols-4">
                 {/* <div className="mx-auto grid md:grid-cols-4 grid-cols-1 p-6 max-w-[1240px] rounded-xl shadow-lg items-start py-16 -mt-36"> */}
                 <div className="max-w-sm bg-white border text-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-6 mb-4">
                     <a href="/#">
@@ -26,6 +26,8 @@ const Works = () => {
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Visit Iloilo Website</h5>
                         </a>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">My first Wordpress development experience: a website for Iloilo LGU providing city information.</p>
+                    </div>
+                    <div>
                         <a href="https://visitiloilocity.com/" target={"_blank"} rel="noreferrer">
                             <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
                                 Visit Website
@@ -35,14 +37,14 @@ const Works = () => {
                 </div>
                 <div className="max-w-sm bg-white border text-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-6 mb-4">
                     <a href="/#">
-                        <img className="rounded-t-lg" src={process.env.PUBLIC_URL + "/assets/img/govesmart.png"} alt="" />
+                        <img className="rounded-t-lg" src={process.env.PUBLIC_URL + "/assets/img/totalvision.png"} alt="" />
                     </a>
                     <div className="p-5">
                         <a href="/#">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Govesmart Web Profile</h5>
+                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Total Vision Products</h5>
                         </a>
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">A company offering customized software solutions for government and private institutions.</p>
-                        <a href="https://www.govesmart.com/" target={"_blank"} rel="noreferrer">
+                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">A business that provides backup camera systems, connectors, and accessories to enhance drivers' safety, comfort, and convenience while on the road.</p>
+                        <a href="https://totalvisionproducts.com/" target={"_blank"} rel="noreferrer">
                             <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
                                 Visit Website
                             </button>
