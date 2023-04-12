@@ -3,7 +3,7 @@ import React from 'react'
 const Works = () => {
   return (
     <div className='bg-white'>
-        <div className='w-full bg-[#1E293B] py-10 px-4 mt-[180px]'>
+        <div className='w-full bg-[#1E293B] py-10 px-4'>
             <div className='mx-auto max-w-[800px] h-[400px] text-center flex flex-col justify-center'>
                 <p className='text-[#00df9a] font-bold p-2'>PROJECTS</p>
                 <h1 className='md:text-4xl sm:text-3xl text-4xl text-white font-bold my-2'>Some of the projects I work with</h1>
