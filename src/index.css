@@ -6,6 +6,8 @@
 body{
   background-color: #1E293B;
   font-family: "europa", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 #formBox{
@@ -42,6 +44,50 @@ body{
 ::-webkit-scrollbar-thumb {
   background: #00DF9A;
 }
+
+.bubble {
+  content: '';
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  top:770px;
+  bottom:0px;
+  height: 225px;
+  width: 100%;
+  background-color: white;
+  z-index: -1;
+  box-shadow: 0px -7px #00DF9A;
+}
+
+/* .curve {
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+}
+
+.curve::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 54.9%;
+  height: 100%;
+  background-color:#1E293B;
+  transform: translate(95.7%, 40%);
+}
+
+.curve::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55.5%;
+  height: 100%;
+  background-color: white;
+  transform: translate(-5%, 65%);
+  z-index: -1;
+} */
 
 /* p{
   font-family: "europa", sans-serif;

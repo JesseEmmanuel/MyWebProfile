@@ -44,7 +44,7 @@ const Skills = () => {
     };
   return (
     <div className='w-full bg-white py-16'>
-        <div className='max-w-[800px] mx-auto text-center flex flex-col justify-center'>
+        <div className='max-w-[800px] mx-auto text-center flex flex-col justify-center mt-[-150px]'>
             <p className='text-[#00df9a] font-bold p-2'>DEVELOPMENT SKILLS</p>
             <Lottie options={defaultOptions} width={300} />
             <h1 className='md:text-4xl sm:text-3xl text-4xl text-[#1E293B] font-bold my-2'>Me as a Developer</h1>
@@ -95,10 +95,13 @@ const Skills = () => {
                             </div>
                         </div>
                     <div className='pb-4'>
-                        <p>Tailwind</p>
+                        <div class="flex justify-between mb-1">
+                                <span class="text-base font-medium text-cyan-700 dark:text-white">Tailwind CSS</span>
+                                <span class="text-sm font-medium text-cyan-700 dark:text-white">70%</span>
+                            </div>
                         <div className="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
                             <div className="bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl
-                                    dark:focus:ring-green-800 h-2 rounded-full" style={{width: '60%'}}></div>
+                                    dark:focus:ring-green-800 h-2 rounded-full" style={{width: '70%'}}></div>
                         </div>
                     </div>
                </div>
@@ -222,6 +225,7 @@ const Skills = () => {
                 </div>   
             </div>
         </div>
+        <div className="bubble"></div>
     </div>
   )
 }
