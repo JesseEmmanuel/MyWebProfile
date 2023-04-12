@@ -45,7 +45,7 @@ body{
   background: #00DF9A;
 }
 
-.bubble {
+.top_curve {
   content: '';
   border-top-left-radius: 50% 100%;
   border-top-right-radius: 50% 100%;
@@ -57,6 +57,29 @@ body{
   background-color: white;
   z-index: -1;
   box-shadow: 0px -7px #00DF9A;
+}
+
+.wave {
+  position: absolute;
+  top: 3510px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 10;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 76px;
+}
+
+.wave .shape-fill {
+  fill: #1E293B;
 }
 
 /* .curve {

@@ -4,7 +4,7 @@ import ReactTyped from 'react-typed'
 const Hero = () => {
   return (
     <div>
-        <div className='max-w-[800px] mt-[-80px] mb-[250px] py-8 w-full h-screen mx-auto text-center flex flex-col justify-center sm:pt-4'>
+        <div className='max-w-[800px] mt-[-80px] py-8 w-full h-screen mx-auto text-center flex flex-col justify-center sm:pt-4'>
             <p className='text-[#00df9a] font-bold p-2'>WEB DEVELOPER</p>
             <h1 className='md:text-5xl sm:text-4xl text-4xl text-white font-bold my-2'>Hi, I'm Jesse. Nice to meet you :)</h1>
             <div>

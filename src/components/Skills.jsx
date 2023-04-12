@@ -44,7 +44,7 @@ const Skills = () => {
     };
   return (
     <div className='w-full bg-white py-16'>
-        <div className='max-w-[800px] mx-auto text-center flex flex-col justify-center mt-[-150px]'>
+        <div className='max-w-[800px] mx-auto text-center flex flex-col justify-center'>
             <p className='text-[#00df9a] font-bold p-2'>DEVELOPMENT SKILLS</p>
             <Lottie options={defaultOptions} width={300} />
             <h1 className='md:text-4xl sm:text-3xl text-4xl text-[#1E293B] font-bold my-2'>Me as a Developer</h1>
@@ -225,7 +225,7 @@ const Skills = () => {
                 </div>   
             </div>
         </div>
-        <div className="bubble"></div>
+        {/* <div className="top_curve"></div> */}
     </div>
   )
 }
