@@ -1,0 +1,80 @@
+/* .content-div{
+    background-image:url('https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+  } */
+
+#visitIloilo {
+    background-image: url('/public/assets/img/visitiloilo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#totalvision {
+    background-image: url('/public/assets/img/totalvision.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#asianhomes {
+    background-image: url('/public/assets/img/asianhomes.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#stellar {
+    background-image: url('/public/assets/img/wearestellar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#visitIloilo:hover {
+    background-image:
+        linear-gradient(to right,
+            rgba(126, 213, 111, 0.801), hsla(160, 64%, 43%, 0.801)),
+        url('/public/assets/img/Iloilo-City-MICE.png');
+}
+
+#totalvision:hover {
+    background-image:
+        linear-gradient(to right,
+        rgb(110 6 6 / 87%), hsl(0deg 0% 0% / 80%)),
+        url('/public/assets/img/Total-Vision-Products-2023.png');
+}
+
+#asianhomes:hover {
+    background-image:
+    linear-gradient(to right,
+    rgb(234 194 56 / 87%), hsl(0deg 24.75% 78.65% / 80%)),
+        url('/public/assets/img/Asian-Home-Builders.png');
+}
+
+#stellar:hover {
+    background-image:
+    linear-gradient(to right,
+    rgb(94 127 236 / 87%), hsl(0deg 24.75% 78.65% / 80%)),
+        url('/public/assets/img/wearestellar.png');
+}
+
+
+
+.image-cover {
+    height: 260px;
+}
+
+/*
+    -remove the classes below if you have the 'group-hover'property added in your tailwind config file
+    -also remove the class from the html template
+    */
+.content-div:hover .fd-cl {
+    opacity: 0.25;
+}
+
+.content-div:hover .fd-sh {
+    opacity: 1;
+}

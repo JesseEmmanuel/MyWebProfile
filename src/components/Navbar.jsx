@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-6 md:mx-auto sm:mx-auto">
         <div>
-            <h1 className='flex w-full text-3xl text-white font-bold'>Jesse<p className='text-[#00df9a]'>Dev</p></h1>
+            <h1 className='flex w-full text-3xl text-white font-bold'> <p className='text-[#00df9a]'>&#60;</p> J<p className='text-[#00df9a]'>/&gt;</p></h1>
             <p className='text-[#00df9a]' >Code.Learn.Grow</p>
         </div>
         <ul className='flex'>
@@ -25,8 +25,7 @@ const Navbar = () => {
             <li className='invisible md:visible p-4 mt-3 text-2xl text-white'> <a href="https://github.com/JesseEmmanuel" target={"_blank"} rel="noreferrer"><BsIcons.BsGithub /></a></li>
             <li>
                 <div className='py-5 px-5'>
-                    <button onClick={handleShow} type="button" className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl
-                        dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Say Hello!
+                    <button onClick={handleShow} type="button" className="text-black bg-white hover:bg-[#022745e5] hover:text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Say Hello!
                     </button>
                 </div>
                 {show ? (<PopForm handleClose={handleClose} />) : null }
