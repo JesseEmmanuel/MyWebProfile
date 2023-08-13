@@ -159,6 +159,36 @@ const Skills = () => {
                                     dark:focus:ring-green-800 h-2 rounded-full" style={{width: '85%'}}></div>
                         </div>   
                     </div>
+                    <div className='pb-4'>
+                        <div class="flex justify-between mb-1">
+                                <span class="text-base font-medium text-cyan-700 dark:text-white">Python</span>
+                                <span class="text-sm font-medium text-cyan-700 dark:text-white">75%</span>
+                            </div>
+                        <div className="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div className="bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl
+                                    dark:focus:ring-green-800 h-2 rounded-full" style={{width: '75%'}}></div>
+                        </div>   
+                    </div>
+                    <div className='pb-4'>
+                        <div class="flex justify-between mb-1">
+                                <span class="text-base font-medium text-cyan-700 dark:text-white">Java</span>
+                                <span class="text-sm font-medium text-cyan-700 dark:text-white">70%</span>
+                            </div>
+                        <div className="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div className="bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl
+                                    dark:focus:ring-green-800 h-2 rounded-full" style={{width: '70%'}}></div>
+                        </div>   
+                    </div>
+                    <div className='pb-4'>
+                        <div class="flex justify-between mb-1">
+                                <span class="text-base font-medium text-cyan-700 dark:text-white">Dart</span>
+                                <span class="text-sm font-medium text-cyan-700 dark:text-white">70%</span>
+                            </div>
+                        <div className="w-full bg-gray-200 rounded-full h-2 dark:bg-gray-700">
+                            <div className="bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl
+                                    dark:focus:ring-green-800 h-2 rounded-full" style={{width: '70%'}}></div>
+                        </div>   
+                    </div>
                 </div>
                 <div className='py-8 border-t-2'>
                     <p className='text-[#2E4EA5] text-xl mb-3 font-bold'>Frameworks: </p>

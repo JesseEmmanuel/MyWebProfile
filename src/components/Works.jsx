@@ -11,9 +11,8 @@ return (
             </h1>
             <div>
                 <p className='text-md mt-3 text-white'>
-                    I've worked with WordPress for a year, designing websites using Elementor plugin and even added
-                    custom post types through Jet Engine. But then I felt like it was time to level up and switch to
-                    coding with React and Laravel to boost my career.
+                    I've been working with WordPress, designing mobile responsive websites using Elementor plugin. Until I got inspired and felt like it was time to level up 
+                    and switch to coding with React and Laravel to boost my career.
                 </p>
             </div>
         </div>

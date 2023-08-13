@@ -4,7 +4,7 @@ import ReactTyped from 'react-typed'
 const Hero = () => {
   return (
     <div>
-        <div className='max-w-[800px] mt-[-80px] py-8 w-full h-screen mx-auto text-center flex flex-col justify-center sm:pt-4'>
+        <div className='max-w-[800px] mt-[-80px] py-8 w-full h-screen mx-auto text-center flex flex-col justify-center sm:pt-4 hero-section'>
             <p className='text-[#00df9a] font-bold p-2'>WEB DEVELOPER</p>
             <h1 className='md:text-5xl sm:text-4xl text-4xl text-white font-bold my-2'>Hi, I'm Jesse. Nice to meet you :)</h1>
             <div>
@@ -21,15 +21,15 @@ const Hero = () => {
                 {/* <button className='bg-[#00df9a] py-3 px-5 rounded-lg mt-4 text-black text-sm font-bold'>Get Started</button> */}
             </div>
         </div>
-          <div className="light x1"></div>
-          <div className="light x2"></div>
-          <div className="light x3"></div>
-          <div className="light x4"></div>
-          <div className="light x5"></div>
-          <div className="light x6"></div>
-          <div className="light x7"></div>
-          <div className="light x8"></div>
-          <div className="light x9"></div>
+        <div className="light x1"></div>
+        <div className="light x2"></div>
+        <div className="light x3"></div>
+        <div className="light x4"></div>
+        <div className="light x5"></div>
+        <div className="light x6"></div>
+        <div className="light x7"></div>
+        <div className="light x8"></div>
+        <div className="light x9"></div>
     </div>
   )
 }
